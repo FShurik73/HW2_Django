@@ -1,0 +1,14 @@
+INFO 2024-02-11 16:34:50,869 Watching for file changes with StatReloader
+INFO 2024-02-11 16:35:09,196 "GET / HTTP/1.1" 200 10629
+WARNING 2024-02-11 16:35:09,239 Not Found: /favicon.ico
+INFO 2024-02-11 16:35:09,240 - Broken pipe from ('127.0.0.1', 51013)
+INFO 2024-02-11 16:35:46,957 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-11 16:35:47,465 Watching for file changes with StatReloader
+INFO 2024-02-11 16:36:29,975 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-11 16:36:30,451 Watching for file changes with StatReloader
+INFO 2024-02-11 16:39:05,463 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-11 16:39:05,954 Watching for file changes with StatReloader
+INFO 2024-02-11 16:41:58,025 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-11 16:41:58,484 Watching for file changes with StatReloader
+INFO 2024-02-11 16:44:13,524 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-11 16:44:13,973 Watching for file changes with StatReloader
