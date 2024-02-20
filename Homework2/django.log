@@ -3997,3 +3997,11 @@ django.core.exceptions.FieldError: Cannot resolve keyword 'ordered_date' into fi
 ERROR 2024-02-20 22:55:16,079 "GET /store_app/all_products/8/7/ HTTP/1.1" 500 115707
 INFO 2024-02-20 22:56:04,856 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
 INFO 2024-02-20 22:56:05,299 Watching for file changes with StatReloader
+INFO 2024-02-20 22:56:09,031 "GET /store_app/all_products/8/7/ HTTP/1.1" 200 278
+INFO 2024-02-20 22:56:19,086 "GET /store_app/all_products/8/1/ HTTP/1.1" 200 278
+INFO 2024-02-20 22:56:37,465 "GET /store_app/all_products/8/2/ HTTP/1.1" 200 278
+INFO 2024-02-20 22:56:44,863 "GET /store_app/all_products/8/3/ HTTP/1.1" 200 278
+INFO 2024-02-20 22:56:50,078 "GET /store_app/all_products/8/4/ HTTP/1.1" 200 278
+INFO 2024-02-20 22:56:55,065 "GET /store_app/all_products/8/5/ HTTP/1.1" 200 278
+INFO 2024-02-20 22:57:01,845 "GET /store_app/all_products/8/6/ HTTP/1.1" 200 278
+INFO 2024-02-20 22:57:08,350 "GET /store_app/all_products/8/30/ HTTP/1.1" 200 757
