@@ -1,0 +1,13 @@
+{% extends 'store_app/base.html' %}
+{% block title %}
+    <title>Редактирование товара</title>
+{% endblock %}
+{% block content %}
+    <h1>Форма редактирования товара</h1>
+    <h3>{{ message }}</h3>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Изменить">
+    </form>
+{% endblock %}

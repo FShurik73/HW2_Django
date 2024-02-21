@@ -1,11 +1,31 @@
 from datetime import datetime, timedelta
-
-from django.shortcuts import render, get_object_or_404
+from .forms import ProductsForm
+from django.shortcuts import render, get_object_or_404, redirect
 from .models import Client, Order, Products
+import logging
+
+logger = logging.getLogger(__name__)
 
 
-def index(request):
-    return render(request, "store_app/index.html")
+def index(request, product_id: int):
+    product = get_object_or_404(Products, pk=product_id)
+    if request.method == 'POST':
+        form = ProductsForm(request.POST)
+        if form.is_valid():
+            product.name = form.cleaned_data['name']
+            product.description = form.cleaned_data['description']
+            product.price = form.cleaned_data['price']
+            product.quantity = form.cleaned_data['quantity']
+            product.save()
+            logger.info(f' {product.name=}, {product.description=}, {product.price=}, {product.quantity=}.')
+            message = 'Товар успешно изменен'
+            return render(request, "store_app/index.html", {'form': form, 'message': message})
+
+    else:
+        form = ProductsForm()
+        message = 'Заполните форму'
+        return render(request, "store_app/index.html", {'form': form, 'message': message})
+
 
 
 def basket(request, client_id):
@@ -30,4 +50,5 @@ def sorted_basket(request, client_id, days_ago):
             if product not in product_set:
                 product_set.append(product)
 
-    return render(request, 'store_app/all_products.html', {'client': client, 'product_set': product_set, 'days': days_ago})
+    return render(request, 'store_app/all_products.html',
+                  {'client': client, 'product_set': product_set, 'days': days_ago})
