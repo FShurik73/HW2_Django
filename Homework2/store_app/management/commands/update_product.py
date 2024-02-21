@@ -20,7 +20,7 @@ class Command(BaseCommand):
         quantity = kwargs.get('quantity')
         product = Products.objects.filter(pk=pk).first()
         product.name = name
-        product.description = description
+        product.description =                            description
         product.price = price
         product.quantity = quantity
         product.save()

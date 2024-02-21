@@ -51,7 +51,3 @@ class Order(models.Model):
     product = models.ManyToManyField(Products)
     total_sum = models.DecimalField(max_digits=8, decimal_places=2)
     order_date = models.DateField(auto_now_add=True)
-
-
-
-
