@@ -3,6 +3,7 @@ from .forms import ProductsForm
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Client, Order, Products
 import logging
+from django.core.files.storage import FileSystemStorage
 
 logger = logging.getLogger(__name__)
 
@@ -10,22 +11,27 @@ logger = logging.getLogger(__name__)
 def index(request, product_id: int):
     product = get_object_or_404(Products, pk=product_id)
     if request.method == 'POST':
-        form = ProductsForm(request.POST)
+        form = ProductsForm(request.POST, request.FILES)
         if form.is_valid():
             product.name = form.cleaned_data['name']
             product.description = form.cleaned_data['description']
             product.price = form.cleaned_data['price']
             product.quantity = form.cleaned_data['quantity']
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            fs.save(image.name, image)
+            if 'image' in request.FILES:
+                product.image = request.FILES['image']
             product.save()
-            logger.info(f' {product.name=}, {product.description=}, {product.price=}, {product.quantity=}.')
+            logger.info(f' {product.name=}, {product.description=}, {product.price=}, {product.quantity=}, {product.image=}.')
             message = 'Товар успешно изменен'
+
             return render(request, "store_app/index.html", {'form': form, 'message': message})
 
     else:
         form = ProductsForm()
         message = 'Заполните форму'
         return render(request, "store_app/index.html", {'form': form, 'message': message})
-
 
 
 def basket(request, client_id):

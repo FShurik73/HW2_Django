@@ -9,3 +9,7 @@ class ProductsForm(forms.Form):
     price = forms.DecimalField(max_digits=8, decimal_places=2, label='Цена')
     quantity = forms.IntegerField(label='Количество')
     date_added = forms.DateField(widget=forms.DateInput(attrs={'type': 'date'}), label='Дата добавления', initial=datetime.date.today())
+    image = forms.ImageField(widget=forms.FileInput(attrs={'placeholder': 'Изображение продукта'}), required=False, label='Изображение')
+
+
+

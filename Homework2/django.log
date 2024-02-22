@@ -5092,3 +5092,158 @@ ERROR 2024-02-21 23:21:27,898 "POST /store_app/index/25/ HTTP/1.1" 500 68478
 INFO 2024-02-21 23:22:16,031 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
 INFO 2024-02-21 23:22:16,519 Watching for file changes with StatReloader
 INFO 2024-02-21 23:22:19,868 "POST /store_app/index/25/ HTTP/1.1" 200 1478
+INFO 2024-02-21 23:33:01,817 C:\Обучение Разработчик\Django_HW2\Homework2\Homework2\settings.py changed, reloading.
+INFO 2024-02-21 23:33:02,363 Watching for file changes with StatReloader
+INFO 2024-02-21 23:35:51,739 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:35:52,212 Watching for file changes with StatReloader
+INFO 2024-02-21 23:36:32,461 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:36:32,946 Watching for file changes with StatReloader
+INFO 2024-02-21 23:37:13,507 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-21 23:37:14,016 Watching for file changes with StatReloader
+INFO 2024-02-21 23:45:00,921 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-21 23:45:01,412 Watching for file changes with StatReloader
+INFO 2024-02-21 23:48:08,048 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:48:08,580 Watching for file changes with StatReloader
+INFO 2024-02-21 23:48:29,540 "GET /store_app/index/24/ HTTP/1.1" 200 1381
+INFO 2024-02-21 23:51:41,496 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-21 23:51:42,088 Watching for file changes with StatReloader
+INFO 2024-02-21 23:51:45,495 "GET /store_app/index/24/ HTTP/1.1" 200 1597
+INFO 2024-02-22 00:01:37,662 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:03:12,892 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:03:12,893 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:05:20,815 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-22 00:05:21,242 Watching for file changes with StatReloader
+INFO 2024-02-22 00:05:48,124 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-22 00:05:48,563 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:05:59,612 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:05:59,613 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:06:42,701 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-22 00:06:43,144 Watching for file changes with StatReloader
+INFO 2024-02-22 00:07:01,463 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:07:07,623 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:07:07,626 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+ERROR 2024-02-22 00:10:24,380 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:10:24,382 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:16:01,229 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:16:01,662 Watching for file changes with StatReloader
+INFO 2024-02-22 00:16:13,130 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:16:30,898 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:16:30,899 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:17:57,753 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:17:58,277 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:53,689 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:20:54,124 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:21:01,397 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:21:01,399 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:22:36,822 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:22:37,499 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:24:33,371 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:24:33,372 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:27:54,492 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-22 00:27:55,024 Watching for file changes with StatReloader
+INFO 2024-02-22 00:31:54,328 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-22 00:31:54,853 Watching for file changes with StatReloader
+INFO 2024-02-22 00:33:39,274 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:33:39,707 Watching for file changes with StatReloader
+INFO 2024-02-22 00:35:09,706 "POST /store_app/index/24/ HTTP/1.1" 200 1712
+INFO 2024-02-22 00:35:22,105 "POST /store_app/index/24/ HTTP/1.1" 200 1712
+INFO 2024-02-22 00:37:29,168 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:37:29,614 Watching for file changes with StatReloader
+INFO 2024-02-22 00:37:41,773 "POST /store_app/index/24/ HTTP/1.1" 200 1712
+INFO 2024-02-22 08:15:58,735 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 08:15:59,225 Watching for file changes with StatReloader
+ERROR 2024-02-22 08:16:51,415 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 14, in index
+    form = ProductsForm(request.POST, request.FILES, instance=product)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'instance'
+ERROR 2024-02-22 08:16:51,417 "POST /store_app/index/24/ HTTP/1.1" 500 68648
+INFO 2024-02-22 08:17:10,788 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 08:17:11,264 Watching for file changes with StatReloader
+INFO 2024-02-22 08:17:21,054 "POST /store_app/index/24/ HTTP/1.1" 200 1712
+INFO 2024-02-22 08:18:56,037 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 08:18:56,485 Watching for file changes with StatReloader
+INFO 2024-02-22 08:19:14,638 "GET /store_app/index/23/ HTTP/1.1" 200 1618
+INFO 2024-02-22 08:20:20,119 "POST /store_app/index/23/ HTTP/1.1" 200 1708
+INFO 2024-02-22 16:51:35,826 Watching for file changes with StatReloader
+WARNING 2024-02-22 16:51:54,322 Not Found: /store_app/index/23/
+WARNING 2024-02-22 16:51:54,323 "POST /store_app/index/23/ HTTP/1.1" 404 2499
+WARNING 2024-02-22 16:52:13,485 Not Found: /store_app/index/23/
+WARNING 2024-02-22 16:52:13,485 "GET /store_app/index/23/ HTTP/1.1" 404 2498
+WARNING 2024-02-22 16:52:15,335 Not Found: /store_app/index/23/
+WARNING 2024-02-22 16:52:15,335 "GET /store_app/index/23/ HTTP/1.1" 404 2498
+WARNING 2024-02-22 16:52:32,870 Not Found: /store_app/index/23/
+WARNING 2024-02-22 16:52:32,871 "GET /store_app/index/23/ HTTP/1.1" 404 2498
+INFO 2024-02-22 16:53:21,354 "GET /store_app/index/22/ HTTP/1.1" 200 1618
+INFO 2024-02-22 16:53:54,950 "POST /store_app/index/22/ HTTP/1.1" 200 1712
+INFO 2024-02-22 16:55:08,562 "POST /store_app/index/22/ HTTP/1.1" 200 1712
