@@ -4005,3 +4005,1245 @@ INFO 2024-02-20 22:56:50,078 "GET /store_app/all_products/8/4/ HTTP/1.1" 200 278
 INFO 2024-02-20 22:56:55,065 "GET /store_app/all_products/8/5/ HTTP/1.1" 200 278
 INFO 2024-02-20 22:57:01,845 "GET /store_app/all_products/8/6/ HTTP/1.1" 200 278
 INFO 2024-02-20 22:57:08,350 "GET /store_app/all_products/8/30/ HTTP/1.1" 200 757
+INFO 2024-02-21 20:38:13,161 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 20:38:13,968 Watching for file changes with StatReloader
+INFO 2024-02-21 21:28:33,457 Watching for file changes with StatReloader
+WARNING 2024-02-21 21:29:01,806 Not Found: /store_app/index/
+WARNING 2024-02-21 21:29:01,807 "GET /store_app/index/ HTTP/1.1" 404 2739
+INFO 2024-02-21 21:30:15,937 "GET /store_app/ HTTP/1.1" 200 410
+INFO 2024-02-21 21:31:00,642 "GET /store_app/ HTTP/1.1" 200 410
+INFO 2024-02-21 21:31:02,299 "GET /store_app/ HTTP/1.1" 200 410
+INFO 2024-02-21 21:31:03,547 "GET /store_app/ HTTP/1.1" 200 410
+INFO 2024-02-21 21:32:18,604 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 21:32:19,094 Watching for file changes with StatReloader
+INFO 2024-02-21 21:32:20,205 "GET /store_app/ HTTP/1.1" 200 1217
+INFO 2024-02-21 21:34:43,155 "GET /store_app/ HTTP/1.1" 200 1217
+INFO 2024-02-21 21:34:43,628 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-21 21:34:44,089 Watching for file changes with StatReloader
+INFO 2024-02-21 21:34:48,494 "GET /store_app/ HTTP/1.1" 200 1249
+INFO 2024-02-21 21:38:13,736 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 21:38:14,186 Watching for file changes with StatReloader
+INFO 2024-02-21 21:38:32,833 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 21:38:33,309 Watching for file changes with StatReloader
+INFO 2024-02-21 21:41:02,337 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 21:41:02,812 Watching for file changes with StatReloader
+INFO 2024-02-21 21:41:03,795 "GET /store_app/ HTTP/1.1" 200 1249
+INFO 2024-02-21 21:41:07,126 "GET /store_app/ HTTP/1.1" 200 1249
+INFO 2024-02-21 21:46:00,886 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 21:46:01,342 Watching for file changes with StatReloader
+INFO 2024-02-21 21:56:26,629 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 21:56:27,071 Watching for file changes with StatReloader
+INFO 2024-02-21 22:06:52,418 "GET /store_app/ HTTP/1.1" 200 1188
+INFO 2024-02-21 22:06:53,823 "GET /store_app/ HTTP/1.1" 200 1188
+INFO 2024-02-21 22:06:54,686 "GET /store_app/ HTTP/1.1" 200 1188
+INFO 2024-02-21 22:06:55,383 "GET /store_app/ HTTP/1.1" 200 1188
+INFO 2024-02-21 22:06:55,935 "GET /store_app/ HTTP/1.1" 200 1188
+INFO 2024-02-21 22:06:56,406 "GET /store_app/ HTTP/1.1" 200 1188
+ERROR 2024-02-21 22:07:37,592 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-02-21 22:07:37,597 "GET /store_app/ HTTP/1.1" 500 133203
+ERROR 2024-02-21 22:08:06,674 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-02-21 22:08:06,677 "GET /store_app/ HTTP/1.1" 500 133203
+ERROR 2024-02-21 22:08:08,215 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-02-21 22:08:08,219 "GET /store_app/ HTTP/1.1" 500 133203
+ERROR 2024-02-21 22:08:09,430 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-02-21 22:08:09,434 "GET /store_app/ HTTP/1.1" 500 133203
+ERROR 2024-02-21 22:09:15,278 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-02-21 22:09:15,281 "GET /store_app/ HTTP/1.1" 500 133203
+ERROR 2024-02-21 22:09:16,463 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: store_app/base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: store_app/base1.html
+ERROR 2024-02-21 22:09:16,465 "GET /store_app/ HTTP/1.1" 500 133570
+ERROR 2024-02-21 22:09:43,648 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: store_app/base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: store_app/base1.html
+ERROR 2024-02-21 22:09:43,650 "GET /store_app/ HTTP/1.1" 500 133570
+ERROR 2024-02-21 22:09:46,921 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: Homework2/store_app/base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: Homework2/store_app/base1.html
+ERROR 2024-02-21 22:09:46,924 "GET /store_app/ HTTP/1.1" 500 133904
+ERROR 2024-02-21 22:09:50,224 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: Homework2/store_app/base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: Homework2/store_app/base1.html
+ERROR 2024-02-21 22:09:50,227 "GET /store_app/ HTTP/1.1" 500 133904
+ERROR 2024-02-21 22:10:31,711 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: Homework2/store_app/base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: Homework2/store_app/base1.html
+ERROR 2024-02-21 22:10:31,713 "GET /store_app/ HTTP/1.1" 500 133904
+ERROR 2024-02-21 22:10:41,671 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: store_app/base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: store_app/base1.html
+ERROR 2024-02-21 22:10:41,674 "GET /store_app/ HTTP/1.1" 500 133570
+ERROR 2024-02-21 22:10:45,052 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: store_app/base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: store_app/base1.html
+ERROR 2024-02-21 22:10:45,055 "GET /store_app/ HTTP/1.1" 500 133570
+ERROR 2024-02-21 22:10:56,542 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: store_app/base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: store_app/base1.html
+ERROR 2024-02-21 22:10:56,545 "GET /store_app/ HTTP/1.1" 500 133570
+INFO 2024-02-21 22:10:57,248 "GET /store_app/ HTTP/1.1" 200 1188
+INFO 2024-02-21 22:13:07,960 "GET /store_app/ HTTP/1.1" 200 1227
+INFO 2024-02-21 22:13:09,106 "GET /store_app/ HTTP/1.1" 200 1227
+INFO 2024-02-21 22:13:09,976 "GET /store_app/ HTTP/1.1" 200 1227
+INFO 2024-02-21 22:13:10,375 "GET /store_app/ HTTP/1.1" 200 1227
+INFO 2024-02-21 22:14:12,246 "GET /store_app/ HTTP/1.1" 200 1227
+INFO 2024-02-21 22:14:13,379 "GET /store_app/ HTTP/1.1" 200 1259
+INFO 2024-02-21 22:14:14,943 "GET /store_app/ HTTP/1.1" 200 1259
+INFO 2024-02-21 22:14:43,412 "GET /store_app/ HTTP/1.1" 200 1259
+INFO 2024-02-21 22:14:44,355 "GET /store_app/ HTTP/1.1" 200 1466
+INFO 2024-02-21 22:15:07,477 "GET /store_app/ HTTP/1.1" 200 1466
+INFO 2024-02-21 22:15:08,302 "GET /store_app/ HTTP/1.1" 200 1466
+INFO 2024-02-21 22:15:09,402 "GET /store_app/ HTTP/1.1" 200 1259
+INFO 2024-02-21 22:19:43,392 "GET /store_app/ HTTP/1.1" 200 1227
+INFO 2024-02-21 22:19:45,547 "GET /store_app/ HTTP/1.1" 200 1227
+INFO 2024-02-21 22:19:46,283 "GET /store_app/ HTTP/1.1" 200 1227
+INFO 2024-02-21 22:19:46,868 "GET /store_app/ HTTP/1.1" 200 1227
+ERROR 2024-02-21 22:22:48,424 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'form' not found. 'form' is not a valid view function or pattern name.
+ERROR 2024-02-21 22:22:48,427 "GET /store_app/ HTTP/1.1" 500 161690
+ERROR 2024-02-21 22:23:22,963 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 20, in index
+    return render(request, "store_app/index.html", {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'form' not found. 'form' is not a valid view function or pattern name.
+ERROR 2024-02-21 22:23:22,967 "GET /store_app/ HTTP/1.1" 500 161690
+INFO 2024-02-21 22:23:23,970 "GET /store_app/ HTTP/1.1" 200 1338
+INFO 2024-02-21 22:38:03,101 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 22:38:03,812 Watching for file changes with StatReloader
+INFO 2024-02-21 22:38:19,043 "GET /store_app/ HTTP/1.1" 200 1338
+ERROR 2024-02-21 22:39:20,883 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 14, in index
+    name = form.cleaned_data.get['name']
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'builtin_function_or_method' object is not subscriptable
+ERROR 2024-02-21 22:39:20,885 "POST /store_app/ HTTP/1.1" 500 67924
+INFO 2024-02-21 22:41:02,817 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 22:41:03,265 Watching for file changes with StatReloader
+ERROR 2024-02-21 22:41:19,069 Internal Server Error: /store_app/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-21 22:41:19,070 "POST /store_app/ HTTP/1.1" 500 68346
+INFO 2024-02-21 22:42:49,066 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 22:42:49,566 Watching for file changes with StatReloader
+INFO 2024-02-21 22:42:51,417 "POST /store_app/ HTTP/1.1" 200 1408
+INFO 2024-02-21 22:45:33,469 Watching for file changes with StatReloader
+INFO 2024-02-21 22:45:36,616 "GET /store_app/ HTTP/1.1" 200 1338
+INFO 2024-02-21 22:45:43,967 "POST /store_app/ HTTP/1.1" 200 1409
+INFO 2024-02-21 22:59:56,183 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 22:59:56,759 Watching for file changes with StatReloader
+INFO 2024-02-21 23:01:39,104 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:01:39,565 Watching for file changes with StatReloader
+INFO 2024-02-21 23:02:50,951 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:02:51,487 Watching for file changes with StatReloader
+INFO 2024-02-21 23:06:22,974 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:06:23,481 Watching for file changes with StatReloader
+WARNING 2024-02-21 23:06:41,435 Not Found: /store_app/
+WARNING 2024-02-21 23:06:41,436 "GET /store_app/ HTTP/1.1" 404 2750
+INFO 2024-02-21 23:07:10,899 "GET /store_app/index/26/ HTTP/1.1" 200 1381
+ERROR 2024-02-21 23:08:33,357 Internal Server Error: /store_app/index/26/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 22, in index
+    return redirect('product', product_id=product_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'product' not found. 'product' is not a valid view function or pattern name.
+ERROR 2024-02-21 23:08:33,360 "POST /store_app/index/26/ HTTP/1.1" 500 87645
+INFO 2024-02-21 23:10:07,986 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:10:08,434 Watching for file changes with StatReloader
+INFO 2024-02-21 23:10:22,595 "GET /store_app/index/26/ HTTP/1.1" 200 1381
+INFO 2024-02-21 23:11:58,360 "GET /store_app/index/26/ HTTP/1.1" 200 1381
+INFO 2024-02-21 23:11:59,108 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:11:59,553 Watching for file changes with StatReloader
+INFO 2024-02-21 23:13:35,564 "POST /store_app/index/26/ HTTP/1.1" 200 1466
+ERROR 2024-02-21 23:14:13,710 Internal Server Error: /store_app/index/25/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 26, in index
+    return render(request, "store_app/index.html", {'form': form, 'message': message})
+                                                            ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-02-21 23:14:13,712 "GET /store_app/index/25/ HTTP/1.1" 500 66717
+ERROR 2024-02-21 23:14:41,758 Internal Server Error: /store_app/index/25/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 26, in index
+    return render(request, "store_app/index.html", {'form': form, 'message': message})
+                                                            ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-02-21 23:14:41,759 "GET /store_app/index/25/ HTTP/1.1" 500 66717
+INFO 2024-02-21 23:16:33,270 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:16:33,722 Watching for file changes with StatReloader
+ERROR 2024-02-21 23:16:39,932 Internal Server Error: /store_app/index/25/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-21 23:16:39,934 "GET /store_app/index/25/ HTTP/1.1" 500 66928
+INFO 2024-02-21 23:18:34,785 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:18:35,244 Watching for file changes with StatReloader
+ERROR 2024-02-21 23:19:18,248 Internal Server Error: /store_app/index/25/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 26, in index
+    return render(request, "store_app/index.html", {'form': form, 'message': message})
+                                                            ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-02-21 23:19:18,250 "GET /store_app/index/25/ HTTP/1.1" 500 66842
+INFO 2024-02-21 23:19:18,980 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:19:19,415 Watching for file changes with StatReloader
+INFO 2024-02-21 23:20:10,751 "GET /store_app/index/25/ HTTP/1.1" 200 1381
+INFO 2024-02-21 23:20:11,437 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:20:11,879 Watching for file changes with StatReloader
+ERROR 2024-02-21 23:21:27,896 Internal Server Error: /store_app/index/25/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-21 23:21:27,898 "POST /store_app/index/25/ HTTP/1.1" 500 68478
+INFO 2024-02-21 23:22:16,031 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:22:16,519 Watching for file changes with StatReloader
+INFO 2024-02-21 23:22:19,868 "POST /store_app/index/25/ HTTP/1.1" 200 1478
+INFO 2024-02-21 23:33:01,817 C:\Обучение Разработчик\Django_HW2\Homework2\Homework2\settings.py changed, reloading.
+INFO 2024-02-21 23:33:02,363 Watching for file changes with StatReloader
+INFO 2024-02-21 23:35:51,739 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:35:52,212 Watching for file changes with StatReloader
+INFO 2024-02-21 23:36:32,461 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:36:32,946 Watching for file changes with StatReloader
+INFO 2024-02-21 23:37:13,507 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-21 23:37:14,016 Watching for file changes with StatReloader
+INFO 2024-02-21 23:45:00,921 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-21 23:45:01,412 Watching for file changes with StatReloader
+INFO 2024-02-21 23:48:08,048 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-21 23:48:08,580 Watching for file changes with StatReloader
+INFO 2024-02-21 23:48:29,540 "GET /store_app/index/24/ HTTP/1.1" 200 1381
+INFO 2024-02-21 23:51:41,496 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-21 23:51:42,088 Watching for file changes with StatReloader
+INFO 2024-02-21 23:51:45,495 "GET /store_app/index/24/ HTTP/1.1" 200 1597
+INFO 2024-02-22 00:01:37,662 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:03:12,892 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:03:12,893 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:05:20,815 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-22 00:05:21,242 Watching for file changes with StatReloader
+INFO 2024-02-22 00:05:48,124 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-22 00:05:48,563 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:05:59,612 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:05:59,613 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:06:42,701 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\models.py changed, reloading.
+INFO 2024-02-22 00:06:43,144 Watching for file changes with StatReloader
+INFO 2024-02-22 00:07:01,463 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:07:07,623 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:07:07,626 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+ERROR 2024-02-22 00:10:24,380 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:10:24,382 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:16:01,229 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:16:01,662 Watching for file changes with StatReloader
+INFO 2024-02-22 00:16:13,130 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:16:30,898 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:16:30,899 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:17:57,753 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:17:58,277 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:53,689 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:20:54,124 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:21:01,397 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:21:01,399 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:22:36,822 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:22:37,499 Watching for file changes with StatReloader
+ERROR 2024-02-22 00:24:33,371 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store_app.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-22 00:24:33,372 "POST /store_app/index/24/ HTTP/1.1" 500 68700
+INFO 2024-02-22 00:27:54,492 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-22 00:27:55,024 Watching for file changes with StatReloader
+INFO 2024-02-22 00:31:54,328 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\forms.py changed, reloading.
+INFO 2024-02-22 00:31:54,853 Watching for file changes with StatReloader
+INFO 2024-02-22 00:33:39,274 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:33:39,707 Watching for file changes with StatReloader
+INFO 2024-02-22 00:35:09,706 "POST /store_app/index/24/ HTTP/1.1" 200 1712
+INFO 2024-02-22 00:35:22,105 "POST /store_app/index/24/ HTTP/1.1" 200 1712
+INFO 2024-02-22 00:37:29,168 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 00:37:29,614 Watching for file changes with StatReloader
+INFO 2024-02-22 00:37:41,773 "POST /store_app/index/24/ HTTP/1.1" 200 1712
+INFO 2024-02-22 08:15:58,735 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 08:15:59,225 Watching for file changes with StatReloader
+ERROR 2024-02-22 08:16:51,415 Internal Server Error: /store_app/index/24/
+Traceback (most recent call last):
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py", line 14, in index
+    form = ProductsForm(request.POST, request.FILES, instance=product)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'instance'
+ERROR 2024-02-22 08:16:51,417 "POST /store_app/index/24/ HTTP/1.1" 500 68648
+INFO 2024-02-22 08:17:10,788 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 08:17:11,264 Watching for file changes with StatReloader
+INFO 2024-02-22 08:17:21,054 "POST /store_app/index/24/ HTTP/1.1" 200 1712
+INFO 2024-02-22 08:18:56,037 C:\Обучение Разработчик\Django_HW2\Homework2\store_app\views.py changed, reloading.
+INFO 2024-02-22 08:18:56,485 Watching for file changes with StatReloader
+INFO 2024-02-22 08:19:14,638 "GET /store_app/index/23/ HTTP/1.1" 200 1618
+INFO 2024-02-22 08:20:20,119 "POST /store_app/index/23/ HTTP/1.1" 200 1708
+INFO 2024-02-22 16:51:35,826 Watching for file changes with StatReloader
+WARNING 2024-02-22 16:51:54,322 Not Found: /store_app/index/23/
+WARNING 2024-02-22 16:51:54,323 "POST /store_app/index/23/ HTTP/1.1" 404 2499
+WARNING 2024-02-22 16:52:13,485 Not Found: /store_app/index/23/
+WARNING 2024-02-22 16:52:13,485 "GET /store_app/index/23/ HTTP/1.1" 404 2498
+WARNING 2024-02-22 16:52:15,335 Not Found: /store_app/index/23/
+WARNING 2024-02-22 16:52:15,335 "GET /store_app/index/23/ HTTP/1.1" 404 2498
+WARNING 2024-02-22 16:52:32,870 Not Found: /store_app/index/23/
+WARNING 2024-02-22 16:52:32,871 "GET /store_app/index/23/ HTTP/1.1" 404 2498
+INFO 2024-02-22 16:53:21,354 "GET /store_app/index/22/ HTTP/1.1" 200 1618
+INFO 2024-02-22 16:53:54,950 "POST /store_app/index/22/ HTTP/1.1" 200 1712
+INFO 2024-02-22 16:55:08,562 "POST /store_app/index/22/ HTTP/1.1" 200 1712
